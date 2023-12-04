@@ -11,7 +11,7 @@ import Login from './assets/components/Login'
 function App() {
 
   return (
-    <Router>
+    <Router  basename="/react-navbar">
       <div>
         <h1>Hello World</h1>
         <Header />
